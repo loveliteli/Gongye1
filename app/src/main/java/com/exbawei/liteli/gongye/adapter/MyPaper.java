@@ -1,4 +1,4 @@
-package com.exbawei.liteli.gongye;
+package com.exbawei.liteli.gongye.adapter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_ge"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_login"
+    tools:context="com.exbawei.liteli.gongye.GeActivity">
+<ImageView
+    android:layout_width="20dp"
+    android:layout_height="20dp"
+    android:src="@mipmap/ic_launcher"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="30dp"
+    android:layout_marginTop="30dp"
+    />
+<com.facebook.drawee.view.SimpleDraweeView
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    fresco:placeholderImage="@drawable/pp"
+    android:layout_marginTop="75dp"
+    android:layout_centerHorizontal="true"
+    fresco:roundAsCircle="true"
+    android:id="@+id/sdv"
+    />
+    <TextView
+        android:layout_width="55dp"
+        android:layout_height="22dp"
+        android:text="哈哈哈"
+        android:textColor="#FF333333"
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:id="@+id/tvwang"
+        />
+    <TextView
+        android:layout_width="144dp"
+        android:layout_height="17dp"
+        android:text="北京今生科技有限公司硕士"
+        android:textColor="#FF333333"
+        android:textSize="12sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="210dp"
+        android:id="@+id/le"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="17dp"
+                android:text="收到的赞赏"
+                android:textColor="#FF333333"
+                android:textSize="12sp"
+                android:layout_gravity="center"
+
+            />
+            <TextView
+                android:layout_width="46dp"
+                android:layout_height="22dp"
+                android:text="¥11.45"
+                android:textColor="#FF333333"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+            />
+        </LinearLayout>
+      <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="50dp"
+          android:orientation="vertical"
+          android:layout_weight="1">
+          <TextView
+              android:layout_width="48dp"
+              android:layout_height="17dp"
+              android:text="我的粉丝"
+              android:textColor="#FF333333"
+              android:textSize="12sp"
+              android:layout_gravity="center"
+          />
+          <TextView
+              android:layout_width="45dp"
+              android:layout_height="22dp"
+              android:text="12345"
+              android:textColor="#FF333333"
+              android:textSize="16sp"
+              android:layout_gravity="center"
+          />
+      </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginTop="300dp"
+        >
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+        android:id="@+id/lv"
+            ></ListView>
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ca"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="13dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:id="@+id/cuo"
+
+        />
+</RelativeLayout>
